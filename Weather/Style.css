@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background.jpg'); /* Add this line */
+  background-size: cover; /* Add this line */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Add this line */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#weather-container {
+  padding: 20px;
+}
+
+#city-input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+#weather-info {
+  margin-top: 20px;
+}
